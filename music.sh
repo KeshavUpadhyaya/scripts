@@ -6,5 +6,6 @@ yt-dlp -f bestaudio \
 --extract-audio \
 --audio-format m4a \
 --embed-metadata \
+--embed-thumbnail \
 -o "%(playlist_title)s/%(title)s.%(ext)s" \
 --cookies-from-browser firefox https://www.youtube.com/playlist?list=PL
